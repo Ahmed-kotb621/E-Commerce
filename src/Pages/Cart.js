@@ -1,12 +1,11 @@
 import { Container } from "react-bootstrap";
-import Slider from "../Components/Slider/Slider";
 
-const Shop =()=>{
+const Cart =()=>{
     return (
         <Container>
-            <Slider/>
+            <h1>Cart</h1>
         </Container>
     )
 };
 
-export default Shop;
+export default Cart;

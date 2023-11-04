@@ -1,12 +1,11 @@
 import { Container } from "react-bootstrap";
-import Slider from "../Components/Slider/Slider";
 
-const Shop =()=>{
+const LogininSignUp =()=>{
     return (
         <Container>
-            <Slider/>
+            <h1>Log In </h1>
         </Container>
     )
 };
 
-export default Shop;
+export default LogininSignUp;
