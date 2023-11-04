@@ -19,9 +19,11 @@
     justify-content: center;
     list-style: none;
     height:100%;
+    text-decoration: none;
 }
 .main-ul li{
      margin-left: 40px;
+     text-decoration: none;
 }
 
 .main-ul li img{
@@ -50,4 +52,5 @@
 }
 .nav-ul li{
     margin-right: 15px;
+    color: #777;
 }

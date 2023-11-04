@@ -1,37 +1,37 @@
 import Carousel from 'react-bootstrap/Carousel';
-import './slider.css'
-import slider1 from '../Assets/Images/slider1.jpg'
-import slider2 from '../Assets/Images/slider2.jpg'
-import slider3 from '../Assets/Images/slider3.jpg'
+import banner1 from '../Assets/banner_kids.png';
+import banner2 from '../Assets/banner_mens.png';
+import banner3 from '../Assets/banner_women.png';
 
 
 const Slider = ()=>      
   {
   return (
-    <Carousel data-bs-theme="dark">
-      <Carousel.Item interval={2000}>
+    <Carousel className='mt-5 rounded'>
+      <Carousel.Item interval={3000}>
       <img
           className="d-block w-100"
-          src={slider1}
+          src={banner1}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+         
       </Carousel.Item>
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={3000}>
       <img
           className="d-block w-100"
-          src={slider2}
+          src={banner2}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+         
       </Carousel.Item>
-      
+      <Carousel.Item interval={3000}>
+      <img
+          className="d-block w-100"
+          src={banner3}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
     </Carousel>
   );
 }
