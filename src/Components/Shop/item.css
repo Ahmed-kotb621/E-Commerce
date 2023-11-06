@@ -1,0 +1,27 @@
+.item-card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.item-card:hover{
+    transform: scale(1.03);
+}
+.btn-addcart{
+    transition: 0.3s;
+}
+.btn-addcart:hover{
+    transform: scale(1.02);
+
+}
+.btn-showcart{
+    margin-left:20px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+.btn-showcart:hover{
+    transform: scale(1.02);
+}
